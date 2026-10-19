@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.11"
-# dependencies = ["matplotlib>=3.9,<4", "scipy>=1.14,<2"]
-# ///
 """Run with: uv run plot_bill_dimensions.py."""
 
 import csv

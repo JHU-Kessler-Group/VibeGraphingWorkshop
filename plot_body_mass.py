@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.11"
-# dependencies = ["matplotlib>=3.9,<4"]
-# ///
 """Run with: uv run plot_body_mass.py.
 
 Boxes show the median and interquartile range. Whiskers extend to the

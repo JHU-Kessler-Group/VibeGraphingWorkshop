@@ -1,0 +1,10 @@
+[project]
+name = "vibegraphing-workshop"
+version = "0.1.0"
+description = "Penguin data visualizations for the October 2026 VibeGraphing workshop"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.9,<4",
+    "scipy>=1.14,<2",
+]

@@ -2,6 +2,12 @@
 
 This repository was created for a workshop about **VibeGraphing in October 2026**, exploring how to create and refine data visualizations through conversation with an AI coding assistant.
 
+## Video walkthrough
+
+Watch the [VibeGraphing video walkthrough on YouTube](https://www.youtube.com/watch?v=etgeDeYFay4) for a demonstration of the process.
+
+[![Watch the VibeGraphing video walkthrough](https://img.youtube.com/vi/etgeDeYFay4/hqdefault.jpg)](https://www.youtube.com/watch?v=etgeDeYFay4)
+
 ## Data and plots
 
 The examples use the penguin measurements in `penguins.csv`.
@@ -14,8 +20,9 @@ The examples use the penguin measurements in `penguins.csv`.
 Use [uv](https://docs.astral.sh/uv/) to run the scripts and manage their dependencies:
 
 ```sh
-uv run plot_bill_dimensions.py
-uv run plot_body_mass.py
+uv sync --locked
+uv run --locked plot_bill_dimensions.py
+uv run --locked plot_body_mass.py
 ```
 
-Each script saves its plot as an SVG in this directory. Dependencies are declared in the scripts and installed automatically by `uv`.
+Each script saves its plot as an SVG in this directory. Dependencies are declared in `pyproject.toml`, and `uv.lock` pins their exact versions. `uv sync --locked` recreates the local `.venv` environment, which is excluded from Git. The `.python-version` file selects Python 3.12; `uv` can download it if needed.
