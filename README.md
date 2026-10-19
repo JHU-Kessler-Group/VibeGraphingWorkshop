@@ -8,6 +8,12 @@ Watch the [VibeGraphing video walkthrough on YouTube](https://www.youtube.com/wa
 
 [![Watch the VibeGraphing video walkthrough](https://img.youtube.com/vi/etgeDeYFay4/hqdefault.jpg)](https://www.youtube.com/watch?v=etgeDeYFay4)
 
+## Meet the Penguins!
+
+We use the Palmer Penguins dataset for the workshop's visualization exercises. Data were collected and made available by [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) and the [Palmer Station, Antarctica LTER](https://pal.lternet.edu/), a member of the [Long Term Ecological Research Network](https://lternet.edu/).
+
+![Palmer Penguins illustration](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
+
 ## Data and plots
 
 The examples use the penguin measurements in `penguins.csv`.
